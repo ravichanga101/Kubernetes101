@@ -1,6 +1,9 @@
 # Kubernetes101
 Learning
 
+https://nahuelhernandez.com/blog/kubernetes_administrator_certification_notes/
+
+
 ## CKA
 
 ```
