@@ -20,6 +20,7 @@ kubectl get events
 ```
 
 ## Scheduling
+```
 kubectl get pods --show-labels
 kubectl get pods -l env=dev
 kubectl describe node node01 | grep -i Taints:
@@ -29,22 +30,27 @@ kubectl label nodes node01 size=small
 
 kubectl logs nginx
 kubectl logs <pod_name> -c <container_name>
+```
 
 ## Monitoring
 
+```
 kubectl top pod --containers=true
+```
 
 ## Application Lifecycle Management
-
+```
 kubectl rollout status deployment/app
 kubectl rollout history deployment/app
 kubectl rollout undo deployment/app
 
 kubectl create configmap app-config --from-literal=env=dev
 kubectl create secret generic app-secret --from-literal=pass=123
+```
 
 ## Cluster Maintenance
 
+```
 kubectl drain node01
 kubectl uncordon node01
 
@@ -64,9 +70,11 @@ kubectl create role dev --verb=create --resource=secret
 kubectl create rolebinding dev-john --role dev --user john
 kubectl api-resources --namespaced=true
 
+```
 
 ## Troubleshooting
 
+```
 kubectl get pods -n kube-system
 
 kubectl get nodes
@@ -80,17 +88,27 @@ sudo journalctl -u kubelet
 ps -aux | grep kubelet
 kubectl cluster-info
 
+```
+
 ## Find pod CIDR:
+
+```
+
 kubectl describe node | less -p PodCIDR
 kubectl get pod -A --sort-by=.metadata.creationTimestamp
 
 kubectl get events -A --sort-by=.metadata.creationTimestamp
 
+```
+
 ## Find the service CIDR of node-master:
+```
 ssh node0master
 cat /etc/kubernetes/manifests/kube-apiserver.yaml | grep range
-
+```
 # Find which CNI plugin is used on node-master:
+
+```
 ls /etc/cni/net.d/
 
 Find internal IP of all nodes:
@@ -137,6 +155,6 @@ https://k8s.work/cka-lab.mp4
 
 https://kube.academy/courses/how-to-prepare-for-the-cka-exam/lessons/the-curriculum
 
-
+```
 
 
