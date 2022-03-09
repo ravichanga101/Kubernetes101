@@ -1,6 +1,9 @@
 # Kubernetes101
 Learning
 
+## CKA
+
+```
 kubectl get pods -n dev
 kubectl get pods -A
 kubectl get all -A
@@ -13,6 +16,8 @@ kubectl edit deploy nginx
 kubectl set image deploy nginx nginx=nginx:1.18
 kubectl scale deploy nginx --repliacs=4 --record
 kubectl get events
+
+```
 
 ## Scheduling
 kubectl get pods --show-labels
