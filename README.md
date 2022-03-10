@@ -158,6 +158,28 @@ https://k8s.work/cka-lab.mp4
 
 https://kube.academy/courses/how-to-prepare-for-the-cka-exam/lessons/the-curriculum
 
+https://github.com/David-VTUK/CKA-StudyGuide
+https://github.com/bmuschko/cka-crash-course/tree/master/exercises
+https://github.com/kodekloudhub/certified-kubernetes-administrator-course
+https://github.com/WahlNetwork/certified-kubernetes-administrator-cka-exam/blob/main/objectives/objective2.md
+https://github.com/krzko/awesome-cka
+https://github.com/bmuschko/cka-study-guide
+
 ```
 
+```
+
+### create configMap from directory
+kubectl create configmap game-config --from-file=/code/configmap
+
+### create configMap from file
+kubectl create configmap game-config-2 --from-file=/code/configmap/game.properties
+
+### create configMap from env file
+kubectl create configmap game-config-env-file --from-env-file=/code/configmap/game-env-file.properties
+
+### create configMap from literal key=value
+kubectl create configmap special-config --from-literal=special.how=very
+
+```
 
