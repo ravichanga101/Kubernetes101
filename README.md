@@ -167,7 +167,6 @@ https://github.com/bmuschko/cka-study-guide
 
 ```
 
-```
 
 ### create configMap from directory
 kubectl create configmap game-config --from-file=/code/configmap
@@ -180,6 +179,4 @@ kubectl create configmap game-config-env-file --from-env-file=/code/configmap/ga
 
 ### create configMap from literal key=value
 kubectl create configmap special-config --from-literal=special.how=very
-
-```
 
