@@ -11,3 +11,7 @@
 - Power Backup / Internet Backup
 - Use Kubectl expose / explain
 - Revise Short - Notes and Reviews
+
+### CKA Notes
+
+===PVC is namespaced Object===
