@@ -14,4 +14,4 @@
 
 ### CKA Notes
 
-~PVC is namespaced Object~
+<b>PVC is namespaced Object</b>
