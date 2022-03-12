@@ -15,3 +15,8 @@
 ### CKA Notes
 
 <b>PVC is namespaced Object</b>
+
+### CKA Links
+
+https://github.com/ggnanasekaran77/cks-exam-tips
+
