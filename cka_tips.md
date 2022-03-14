@@ -16,6 +16,16 @@
 
 <b>PVC is namespaced Object</b>
 
+- headless
+- restart policy
+- helm - package manager
+- istio - service mesh
+- podDesruptionBudget
+- HPA- horizontal pod autoscaling
+- exit code - zero -- clean exit
+- Affinity Rules
+- imagepullback
+
 ### CKA Links
 
 https://github.com/ggnanasekaran77/cks-exam-tips
