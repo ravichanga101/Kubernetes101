@@ -39,9 +39,24 @@
   - Taint -- NODE
   - Toleration - POD 
 - Node Selector
+- Node Affinity
+- Combine Node Affinity and Taint & Toleration
+- Resource Limit 
+  - CPU
+  - RAM
+
+
+
+### Multi-Container POD
+- Init Container
+
+
+### Application POD
+- command & arguments
+- ConfigMap
+- Secret
+- Environment Variables
 - 
-
-
 
 ### CKA Links
 
