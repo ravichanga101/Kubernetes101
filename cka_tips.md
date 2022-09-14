@@ -26,6 +26,9 @@
 - Affinity Rules
 - imagepullback
 
+### Static POD
+- /etc/kubernetes/manifests
+
 ### CKA Links
 
 https://github.com/ggnanasekaran77/cks-exam-tips
